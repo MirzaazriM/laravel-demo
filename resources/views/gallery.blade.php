@@ -1,1 +1,1 @@
-<h2>Gallery</h2>
+<h2>Gallery {{$value}}</h2>

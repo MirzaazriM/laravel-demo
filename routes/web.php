@@ -19,3 +19,8 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('/slideshow/slide', function () {
+    return view('slideshow/slide');
+});
+
+Route::get('/users', 'UserController@index');
